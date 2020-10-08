@@ -20,7 +20,7 @@ def nao_entre_em_panico():
         for i in range(2, numero):
             if numero % i == 0:
                 ehprimo = 0
-        break
+                break
         if (ehprimo):
             primos = primos + str(numero) + ","
             p += 1
